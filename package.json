@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/piyush-m18/piyush-backend#readme",
   "dependencies": {
+    "dotenv": "^18.0.4",
     "express": "^5.2.1",
     "mongoose": "^9.10.2"
   }
