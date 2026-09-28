@@ -2,8 +2,8 @@ const mongoose=require("mongoose");
 
 // to create a schema for the note model
 const noteSchema=new mongoose.Schema({
-    title: string,
-    description: string,
+    title: String,
+    description: String,
 })
 
 // to perform CRUD operations on the note model we need to create a model using the schema
